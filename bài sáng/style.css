@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-image: url(../image/backgr.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.nav{
+    width: 1400px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.heading_one{
+    color: aliceblue;
+    margin-left: 200px;
+    font-family:'Dancing Script', cursive;
+}
+ul{
+    width: 350px;
+    display: flex;
+    justify-content: space-around;
+}
+li{
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: aliceblue;   
+}
+.icon{
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    color: aliceblue;
+    align-items: center;
+}
+.btn{
+    width: 150px;
+    height: 50px;
+    background-color: rgba(226, 157, 7, 0.774);
+    border-radius: 20px;
+    border: none;
+    color: aliceblue;
+}
+.text{
+    position: relative;
+    width: 600px;
+    height: 300px;
+    color: aliceblue;
+}
+.text_one{
+    position: absolute;
+    padding-left: 200px;
+    margin-top: 100px;
+}
+.heading_two{
+    font-family: 'Dancing Script', cursive;
+    font-size: 35px;
+}
+.text_p{
+    margin-top: 30px;
+}
+.btn_one{
+    width: 150px;
+    height: 50px;
+    background-color: rgba(226, 157, 7, 0.774);
+    border-radius: 20px;
+    border: none;
+    color: aliceblue;
+    margin-top: 20px;
+}
+.symbol{
+    margin-top: 100px;
+}
+.content{
+    background-image: url(../image/xanh\ dam.jpg);
+    background-size: cover;
+    width:100%;
+    height: 100vh;
+}
+.image_bg img{
+    width: 60%;
+    height: 90%;
+    margin-top: 50px;
+    margin-left: 200px;
+
+}
+.content{
+    display: flex;
+}
+.content_one{
+    width: 500px;
+    height: 400px;
+    margin-top: 250px;
+    color: aliceblue;
+    margin-left: 80px;
+}
+.heading_three{
+    font-family: 'Dancing Script', cursive;
+    font-size: 35px;
+}
+.content_text{
+    margin-top: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.btn_two{
+    width: 150px;
+    height: 30px;
+    background-color: rgba(226, 157, 7, 0.774);
+    border-radius: 20px;
+    border: none;
+    color: aliceblue;
+    margin-top: 20px;
+}
